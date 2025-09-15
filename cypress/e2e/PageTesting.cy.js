@@ -56,7 +56,7 @@ describe('Excelencia Cypress - Testing pages', () => {
         cabecera.clickLoginRegistro()
 
         // Elimino y Creo el usuario mediante API 
-        cy.eliminaUsuarioCommand(email.password)
+        cy.eliminaUsuarioCommand(email, password)
         cy.registraUsuarioCommand(email, password)
 
         // Login de usuario
@@ -79,7 +79,7 @@ describe('Excelencia Cypress - Testing pages', () => {
         cabecera.clickLoginRegistro()
 
         // Elimino y Creo el usuario mediante API 
-        cy.eliminaUsuarioCommand(email.password)
+        cy.eliminaUsuarioCommand(email, password)
         cy.registraUsuarioCommand(email, password)
 
         // Login de usuario

@@ -8,15 +8,15 @@ Cypress.Commands.add('registraUsuarioCommand', (usermail, password) => {
                 'Content-Type': 'application/x-www-form-urlencoded'
             },
             body: new URLSearchParams({
-                name: 'excelenciacypress123',
+                name: 'Javier Fernandez',
                 email: usermail,
                 password: password,
                 title: 'Sr.',
                 birth_date: '15',
                 birth_month: '09',
                 birth_year: '1985',
-                firstname: 'Excelencia',
-                lastname: 'Cypress',
+                firstname: 'Javier',
+                lastname: 'Fernandez',
                 company: 'Tech Solutions SA',
                 address1: 'Av. Corrientes 1234',
                 address2: 'Piso 5, Oficina 502',
