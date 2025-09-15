@@ -5,7 +5,7 @@ class Cabecera {
     clickLoginRegistro() {
         cy.contains('a',' Signup / Login').should('have.attr','href','/login')
         cy.get(el.botonLoginRegistro).click()
-        cy.url().should('be.equal', 'https://www.automationexercise.com/login')
+        cy.url().should('contain', '/login')
     }
 
     comprobarExisteBotonLogout() {

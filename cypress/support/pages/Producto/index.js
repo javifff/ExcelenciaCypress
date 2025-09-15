@@ -9,19 +9,19 @@ class Producto {
 
      }
 
-     agregarPrimerProductoCarritoNveces(n) {
+     agregarPrimerProductoCarritoNveces(cantidad) {
           cy.get(el.listaItems).find(el.elementosListaItems).first().contains('View Product').click()
           cy.url().should('contain', 'product_detail')
-          cy.get(el.cantidad).clear().type(n)
+          cy.get(el.cantidad).clear().type(cantidad)
           cy.get(el.botonAddToCart).click()
           cy.get(el.mensajeAddedItem).should('contain', 'Your product has been added to cart.')
 
      }
 
-     verificarCantidadEnCarrito(n) {
+     verificarCantidadEnCarrito(cantidad) {
           cy.get(el.enlaceIrACart).click()
           cy.url().should('contain','view_cart')
-          cy.get(el.cantidadEnCarrito).should('contain.text',n)
+          cy.get(el.cantidadEnCarrito).should('contain.text',cantidad)
      
      }
 

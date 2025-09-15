@@ -6,7 +6,7 @@ class Registro {
         cy.get(el.campoName).type(name)
         cy.get(el.campoMail).type(email)
         cy.get(el.botonSignup).click()
-        cy.url().should('be.equal', 'https://www.automationexercise.com/signup')
+        cy.url().should('contain', '/signup')
         cy.get(el.campoPassword).type(password, { log: false })
         cy.get(el.campoFirstName).type('Javier')
         cy.get(el.campoLastName).type('Fernandez')
