@@ -9,7 +9,7 @@ describe('Excelencia Cypress - Testing API', () => {
     const random4Digits = Math.floor(Math.random() * 9000) + 1000; // Genera un número aleatorio de 4 dígitos
     for (let n = 0; n < 10; n++) {
 
-        it.skip('E4: API CVE: excelenciacypress' + (random4Digits + n) + '@example.com', () => {
+        it('E4: API CVE: excelenciacypress' + (random4Digits + n) + '@example.com', () => {
 
             const api = new API();
 
