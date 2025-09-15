@@ -1,0 +1,16 @@
+{
+  "title": "Sr.",
+  "birth_date": "15",
+  "birth_month": "09",
+  "birth_year": "1985",
+  "firstname": "Javier",
+  "lastname": "Fernandez",
+  "company": "Tech Solutions SA",
+  "address1": "Av. Corrientes 1234",
+  "address2": "Piso 5, Oficina 502",
+  "country": "India",
+  "zipcode": "C1043AAZ",
+  "state": "Buenos Aires",
+  "city": "CABA",
+  "mobile_number": "+5491112345678"
+}
