@@ -7,6 +7,10 @@ import Producto from "../support/pages/Producto"
 
 describe('Excelencia Cypress - Testing pages', () => {
 
+    //
+    // Cenários 1, 2 e 3. Descrição em cada teste.
+    //
+
     beforeEach(() => {
         cy.visit('/')
     })

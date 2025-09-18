@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run --browser chrome --headed --spec cypress/e2e/**/*.cy.js",
+    "cy:run_headless": "npx cypress run --browser chrome  --spec cypress/e2e/**/*.cy.js"
   },
   "repository": {
     "type": "git",
