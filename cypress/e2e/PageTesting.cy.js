@@ -28,6 +28,7 @@ describe('Excelencia Cypress - Testing pages', () => {
     it('E1 - Register User', () => {
 
         // Cenário 1: Registro bem-sucedido
+        //
         // Boas práticas: testes em navegador, comandos personalizados, 
         // Page Object Model (POM), independência dos testes com chamadas à API,
         // uso de variáveis de ambiente e ocultação de dados sensíveis durante 
@@ -51,6 +52,7 @@ describe('Excelencia Cypress - Testing pages', () => {
     it('E2 - Login User with correct email and password', () => {
 
         // Cenário 2: Login bem-sucedido
+        //
         // Boas práticas: testes em navegador, comandos personalizados, 
         // Page Object Model (POM), independência dos testes com chamadas à API,
         // uso de variáveis de ambiente e ocultação de dados sensíveis durante 
@@ -73,6 +75,7 @@ describe('Excelencia Cypress - Testing pages', () => {
 
 
         // Cenário 3: Verifica a quantidade de produtos no carrinho de compras
+        //
         // Boas práticas: testes em navegador, comandos personalizados, 
         // Page Object Model (POM), independência dos testes com chamadas à API,
         // uso de variáveis de ambiente e ocultação de dados sensíveis durante 
